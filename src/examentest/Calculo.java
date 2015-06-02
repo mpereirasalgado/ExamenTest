@@ -44,6 +44,12 @@ public class Calculo {
         }
     }
 
+    public void setMensajeResultado(String mensajeResultado) {
+        this.mensajeResultado = mensajeResultado;
+    }
+    
+    
+    
     //resultado del cálculo del MCD
     public String getMensajeResultado() {
         return mensajeResultado;
