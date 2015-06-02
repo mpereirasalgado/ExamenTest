@@ -65,7 +65,12 @@ public class Calculo {
     public int getNumero2() {
         return numero2;
     }
-
+    
+    public String mensajes(String MensajeResultado){
+        String mensaje="";
+        
+        return mensaje;
+    }
     //método para calcular el MCD
     public int obtenerMCD(int num1, int num2) {
         int resto;
