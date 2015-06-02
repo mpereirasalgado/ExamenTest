@@ -55,7 +55,7 @@ public class CalculoCheckerTest {
    // This test will run 4 times since we have 5 parameters defined
    @Test
    public void testlogicChecker() {
-      System.out.println("Parametros testeados : " + numDiv1+" , " +numDiv2+"MCD = "+ resto );
+      System.out.println("Parametros testeados :{" + numDiv1+" , " +numDiv2+"}  MCD = "+ resto );
       assertEquals(expectedResult, calculo.obtenerMCD(numDiv1, numDiv2),2);
    }
 }
