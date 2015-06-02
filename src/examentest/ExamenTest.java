@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
 
 /**
  * Calcula maximo comun divisor recursivamente
- *
+ * examen
  * @author mpereirasalgado
  */
 public class ExamenTest {
